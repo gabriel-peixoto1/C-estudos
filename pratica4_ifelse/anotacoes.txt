@@ -1,0 +1,5 @@
+anotacoes gerais:
+
+1. da pra fazer scanf com varios valores de entrada de uma vez. 
+2. nao precisa usar {} no if. só colocar a condicao entre () e o comando e ;. 
+3. else if faz a funcao do elif. 

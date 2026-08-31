@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <string.h>
+
+struct lutador {
+char *nome;
+int vitalidade;
+int dano_maximo;
+};
+typedef struct lutador Lutador;
+
+Lutador carrega_lutadores(int *n) {
+    FILE *arq; 
+    char linha[1000];
+    Lutador *lutadores;
+    int i;
+
+    arq = fopen("lutadores.txt","r");
+
+    fscanf(arq,"%d",n);
+
+    *lutadores = malloc((*n)*sizeof(Lutador)); 
+
+    while(!feof(arq)) {
+
+        fgets(linha,sizeof(linha),arq);
+
+        lutadores[i]->nome = malloc(10*sizeof(char));
+        strcpy(lutadores[i].nome,strtok(linha," "));
+
+        lutadores[i].vitalidade = atoi(strtok(NULL," "));
+
+        lutadores[i].dano_maximo = atoi(strtok(NULL," \n"));
+
+        i++;
+
+    }
+
+    fclose(arq);
+    return lutadores;
+}

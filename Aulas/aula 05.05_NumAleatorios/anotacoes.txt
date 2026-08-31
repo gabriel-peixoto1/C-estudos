@@ -1,0 +1,44 @@
+Aula de hoje: 
+- rand e suas variações;
+- seed;
+- srand;
+- stdlib.h;
+- time.h; 
+- #define;
+- um pouco de vetores, um pouco de for. 
+
+1. Como gerar números aleatórios em C? 
+- stdlib.h
+- usar a funcao rand()
+- rand() gera um número aleatório entre 0 e 'randmax', que é 
+o maior número que pode ser gerado. 
+
+2. a função rand gera números pseudoaleatórios, mas eles dependem
+do valor da seed. eles usam essa seed como variavel x em um 
+algoritmo complexo, então esses números aleatorios são gerados em 
+função da seed. 
+Por isso, devemos alterar o número da seed para criar realmente
+números aleatórios. 
+
+Obs.1 ------> vetores são gerados com r[i] (cria um vetor com 
+i componentes. Uso de colchete).
+
+3. Para randomizar a seed, usaremos o TEMPO do computador, que sempre
+será diferente a cada vez que você olhar. 
+- usar time.h
+
+Obs.2 ------> Os dez primeiros numeros gerados sempre são mais proximos 
+e os outros se distanciam mais. Então, se não for de nosso interesse,
+devemos usar um 'for' para desprezar os dez primeiros. 
+
+Obs. 3 ------> O 'srand' deve ser sempre usado apenas uma vez 
+no código, logo após o main. não deve ser colocado dentro de um 
+for ou de uma outra função. 
+
+4. No arquivo pt2.c, criei diversas funções usando números 
+aleatórios. Estudar depois como cada uma delas funciona. 
+
+5. funções que geram números aleatórios sempre deverão ser 
+criadas usando f(min,max).
+
+

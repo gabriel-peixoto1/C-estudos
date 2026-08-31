@@ -1,0 +1,17 @@
+1. Para definir o vetor, precisamos escrever vetor[numElementos], mas para passar esse vetor
+em uma função, devemos escrever apenas 'vetor', se não ele passa só um elemento. 
+
+2. Nao tem problema passar um elemento de um vetor dentro de outro. Tipo: 
+vetor[podio[j]] = 0    -----> Irá substituir o elemento que tem o mesmo número de podio[j]
+dentro do vetor 'vetor' por 0.
+
+3. #include "Corridas.h" ----> COM ASPAS IRMÃO. 
+
+4. Quando tem um caracter "%c", ele não necessariamente transforma o número em letra, mas sim 
+o inteiro no número correspondente da ASCII.
+Logo, se eu quero que meu printf retorne 'A', depois 'B', depois 'C' com j = j + 1, eu devo 
+escrever como variável 'A' + j   ou j + 65 (65 é onde começam as letras ASCII). 
+
+5. Simplesmente ignorei a existência do vetor 'pontuacao' na 5 e acabei errando ela toda.
+
+6. tambem gastei tempo pra caralho. 

@@ -1,0 +1,28 @@
+Aula de Hoje: Resolução de exercícios usando números aleatórios. 
+
+EXERCÍCIOS 2 ------> Ordenação 
+
+1 - Problema de um banco que recebe números de 1 a 100 (int) aleatoriamente durante o dia 
+e quer ordenar eles em ordem crescente (Foto completa do enunciado no grupo).
+
+- v[0] é o primeiro elemento de um vetor. v[i] para i < n percorre todos os elementos do vetor até v[n].
+
+Função de ordenação: 
+
+1. primeiro, contar QUANTOS elementos são maiores que o v[i]. 
+Por exemplo, em um vetor [8, 1, 5, 4, 2], ao considerar v[2] = 5, ele irá contar QUANTOS elementos
+do vetor serão menores que o 5. Nesse caso, temos dois elementos menores que 5, v[1] = 1 e v[4] = 2.
+
+2. Se o vetor v[2] tem 2 elementos menores que ele, então uma variável count será igual a 2. 
+
+3. Se count(v[2]) = 2, então quando formos ordenar, o elemento v[2] estará na terceira posição, 
+porque tem dois números menores que ele.
+
+4. Implementar a função ordCont. (???)
+
+
+
+EXERCÍCIO 3 -----> Segunda parte - MATRIZES: 
+
+- IAs são vetores de vetores de matrizes (?);
+- As matrizes em C começam nas posições 0, não na 1; 

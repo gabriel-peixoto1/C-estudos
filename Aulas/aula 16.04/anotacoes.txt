@@ -1,0 +1,12 @@
+Anotacoes Gerais da Aula: 
+
+1. Sobre Funcoes e Main:  nao é comum em codigos mais avancados ter as funcoes 
+juntas com sua funcao main, porque codigos mais complexos podem ter centenas de 
+funcoes.
+
+2. Funcoes: Se defino int funcao(int a, int b) como uma funcao, toda vez que 
+eu for usar ela, posso usar diretamente funcao(20,30) para aplicar ela aos 
+valores 20 e 30, sem precisar defini-los como int ou float. 
+
+3. Funcoes: Lei de funcao é descrita no return. 
+

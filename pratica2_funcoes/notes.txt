@@ -1,0 +1,27 @@
+Sobre o ex.1: 
+
+1. NÃO se pode criar funcoes dentro do main(). é como se fosse criar uma funcao 
+dentro de outra funcao. 
+2. x^2 não simboliza x ao quadrado no C. Usar x*x. 
+3. explicitar a formula da funcao após o 'return'.
+
+Sobre o ex.2: 
+1. funcao com duas variaveis + funcao composta. 
+2. definir cada uma das variaveis e definir a funcao composta dentro da funcao maior. 
+3. lei da funcao descrita no return. 
+4. na hora de chamar a funcao no printf, descrever todas as variaveis entre parenteses. 
+
+Sobre o ex.3: 
+1. o pai eh brabo. 
+
+Sobre o ex.4: 
+1. nao consegui fazer. 
+
+Sobre o ex.5: 
+1. colocar (int) antes de uma variavel altera o valor dela (int --> float, por exemplo).
+2. easy. 
+
+Sobre o ex.6: 
+1. easyyyyyy. 
+
+Sobre o ex.7:

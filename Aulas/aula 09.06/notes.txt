@@ -1,0 +1,22 @@
+Alocação de memória - Matrizes e Vetores
+
+* exercício de p3: 
+criar uma matriz com número de colunas variadas em cada linha. 
+
+1. essa técnica de alocação de memória é útil para economizar memória,
+pois pode criar uma matriz tabela que tenha tamanhos de linha variáveis
+evitando de ter que criar uma matriz quadrada grande demais para 
+representar alguns dados. 
+
+2. Estudar sobre "ponteiro de ponteiro" ---> float**. 
+
+3. Em matrizes estáticas, é possível usar o quanto de memória 
+tiver disponível. 
+
+obs.> códigos feitos em sala estão no github (git dele no moodle).
+
+4. Exercício: criar uma função alocaMatriz que 
+
+aleatorio: gabarito da p2 no github dele tbm
+
+5. exercício recomendado: como desalocar uma matriz M (não é só usar free)

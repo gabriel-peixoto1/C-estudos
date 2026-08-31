@@ -1,0 +1,19 @@
+Questão 1. Não sei strtok (separação de strings) e feof.
+- feof = fim de arquivo. 
+- strtok --> vai fatiando o espaço de memoria (linha). Na primeira, deve ser chamado com o nome
+da linha e depois deve começar com NULL, para seguir do "novo início". Deve ser feito na mesma
+ordem que as informações aparecem. 
+
+Questão 2. Usa ponteiros e alocação dinâmica.
+- 
+
+
+Questão 3. função que disponibiliza 100 charc para as informações de um livro e sempre que a
+memória usa mais que isso, dobra a memória. O conteúdo carregado deve estar em uma string e 
+sempre apontar para onde tem memória válida. 
+- "Ao final do processo, garanta que o conteúdo carregado possa ser interpretado corretamente como uma string." ---> NÃO ESQUEÇA DO \0.
+
+Questão 4. Fazer uma função que calcula MDC usando recursividade.
+
+- questão de recursividade tem q ter no maximo 5 linhas, se não tem alguma coisa errada. 
+

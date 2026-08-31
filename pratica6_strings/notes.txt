@@ -1,0 +1,15 @@
+Sobre o ex1: 
+- A tabela ASCII mostra como o C lê caracteres em números inteiros. Muito útil. 
+- Fiz um for aqui bonitão. 
+- Strings funcionam como vetores, em que str[0] é a primeira letra da string e str[i] 
+percorre todas as letras. 
+- char A = char *A. 
+
+Sobre o ex2: 
+- Bem easy. Aplicação de funções do <string.h>
+
+Sobre o ex3: 
+- uso da função fgets(). 
+- Quando se trata de strings, o scanf lê apenas a primeira palavra da frase. portanto, o fgets é mais
+adequado. 
+- 'stdin' significa que o método de entrada é o teclado. 

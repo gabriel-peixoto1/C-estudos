@@ -1,0 +1,11 @@
+Aula de Hoje: Operadores de Repeticao (Loop ou Lacos)
+
+1. Notacao ------> while(i<=1) {"faz isso"}; 
+2. em alguns casos, o looping infinito é desejável. 
+3. existe tambem o "do while". Não entendi exatamente a diferenca.
+4. No caso do problema 2, tem como colocar uma condicao onde, caso o usuario 
+inverta o dividendo pelo divisor, nós podemos usar aquela tecnica de trocar o 
+valor. 
+5. % -----> operador de resto da divisao entre dois numeros. 
+6. funcao 'toupper' evita a diferenca entre letra maiuscula e minuscula. 
+no caso do usuario ter que digitar S ou N para continuar um programa, por exemplo.

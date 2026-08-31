@@ -1,0 +1,29 @@
+Alocação dinâmica de memória - malloc e free
+
+1. ao criar uma variável, o espaço armazenado para ela é fixo e não
+pode ser alterado depois. A aula de hoje é sobre como alterar 
+esse espaço posteriormente.
+
+2. essa alocação dinâmica é necessária, por exemplo, em casos onde
+os dados entrarão com um scanf ou fgets, e nós não sabemos exatamente
+o valor da entrada. Logo, não é interessante ocupar um espaço de 
+memória intenso só para o caso da entrada ser maior, porque isso
+consome memória demais antes de fazer qualquer coisa. 
+
+3. stack x heap: o tipo de alocação que usamos está contido dentro
+de uma categoria chamada 'stack'. 
+- Na 'stack', os espaços de memória são fixos, armazenados e 
+administrados pela CPU e o tamanho máximo é o máximo suportado 
+pelo sistem operacional. 
+- Na 'heap', as variáveis podem ser redimensionadas usando a 
+função 'realloc()', o limite de espaço é o tamanho total livre, 
+as variáveis podem ser acessadas globalmente (algo como nuvem?) 
+e a memória pode se desfigurar com o tempo, por não ser administrada
+diretamente pela CPU. 
+
+4. Ponteiros: Não entendi exatamente ainda, mas realocações de 
+memórias tem tudo a ver com ponteiros. 
+
+5. malloc(): função que aloca memória. 
+
+6. free(): função que libera espaço de memória quando não mais necessário.

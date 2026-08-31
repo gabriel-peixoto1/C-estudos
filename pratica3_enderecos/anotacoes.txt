@@ -1,0 +1,21 @@
+Anotacoes Gerais 
+
+Sobre o ex.1: 
+1. nao fazer um main nessa questao, apenas a funcao soma1, 
+pois o main ja esta pronto na questao do moodle, e eu so preciso 
+implementar essa funcao (grandes bostas).
+
+
+VOID: a funcao void é usada quando a funcao apenas faz uma acao, mas nao retorna
+nenhum valor. por exemplo, uma funcao que troca o valor de um endereco de memoria,
+mas nao imprime, nem faz nada com esse valor, é uma void. 
+
+para os casos que queremos que a funcao retorne alguma coisa, usamos 'int' ou 
+'float' ou algo para caracterizar o valor de saída. 
+
+INCLUDE: usar "" ----> quando a funcao/biblioteca foi criada por mim mesmo e 
+está no meu código.   ex.: #include "minhas_funcoes.h"
+usar <> ----> quando for uma biblioteca propria do C, tipo #include <math.h>.
+
+ENUNCIADO: quando o exercício pedir para criar uma funcao, já tem um main pronto
+por trás. quando pedir um programa, tem que fazer tudo no main. 

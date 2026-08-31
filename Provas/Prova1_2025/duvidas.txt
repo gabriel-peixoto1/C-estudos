@@ -1,0 +1,18 @@
+Lista de dúvidas e Pontos fracos
+
+1. Preciso usar colchete no if ou no else?         R: Só se a condição consumir mais de uma linha. Bem interessante isso. Acredito que colocar colchetes sempre seja uma boa prática.
+2. o return precisa estar entre aspas para retornar o número que quero?         R: Não! 
+3. A simbologia para 'and' é &&? Se sim, qual é a 'or'?         R: Sim!
+4. Em todas as funções preciso ficar incluindo o stdio?         R: Só necessário quando houver scanf ou printf;
+5. 'or' é '||' ?????        R: Sim!
+
+A três eu sei que tá toda errada (character e ponteiros). 
+
+6. Como criar uma função que retorna character?         R: 
+7. Como fazer operações com o número ASCII e retornar o valor em caracter?         R: 
+8. Como mudar o valor da variável de entrada? recebe X e devole X-32?         R:  
+
+9. "A = funcao(x)" funciona para guardar o valor de funcao(x) na variavel A?        R: Sim! 
+
+
+Obs.: NUNCA ESQUECER DE DEFINIR O TIPO DE CADA VARIÁVEL ANTES DE USAR. 

@@ -1,0 +1,17 @@
+/* 
+
+Observacoes gerais da aula: 
+
+1. %s = string
+2. o IF trata de verdades booleanas, ou seja, verdadeiro ou falso, sem intermediarios.
+3. O espaco ocupado por cada variavel na memoria é importante. Na aula anterior,
+foi estudado o caso 'long long int' e outros parecidos.
+4. '==' -> 'igual a', '!=' -> 'diferente'.
+
+5. Operadores logicos: '&&' = 'and', '||' = 'or', '!' = 'not'. (exemplo 2)
+6. Logo em seguida da condicao do IF, abrir um {}. 
+7. Ainda tenho dificuldades em colocar os ";" e em usar aspas duplas.
+8. Quando quiser fazer x = x + 1, usar x++ e tambem x = x - 1 ---> 'x --'. 
+
+
+*\ 

@@ -1,0 +1,27 @@
+Sobre matrizes: 
+
+1. Matrizes são vetores com duas dimensões. 
+- int m[2][3] ------> cria uma matriz 'm' com duas linhas e três colunas. 
+- int mat[2][3] = {{1,2,3},{4,5,6}}  ------> Para declarar valores, parecido com Python, vetores
+separado por vírgula. 
+- Quase sempre usamos dois for para percorrer uma matriz.
+- Para escanear ou printar todos os elementos de uma matriz, devemos usar também dois for, 
+de forma parecida com os vetores. 
+
+Obs.: Uma entrada com espaço funciona como vários scanf de uma vez. Tipo, entrada 3enter 5enter
+é igual a entrada 3 5 enter. 
+
+
+2. numeros aleatorios: 
+- rand() gera um numero aleatorio qualquer de 1 ate o numero maximo do sistema. 
+- porem, a rand() por si só sempre gera a mesma sequencia de numeros aleatorios quando é 
+executada várias vezes. 
+- por isso, é necessário usar uma 'seed'. cada seed irá gerar uma sequencia de numeros 
+aleatorios diferentes, mas sempre a mesma. tipo, seed(10) = seed(10) sempre. 
+- srand(seed). 
+
+3. numeros aleatorios com intervalos: 
+- (random%(superior+1 - inferior)) + (inferior)
+obs.: o enunciado da 11 queria que usasse especificamente a formula sem o +1. Ou seja, 
+não considera o limite superior com incluido no bglh. 
+- eu msm deduzi essa aqui. 

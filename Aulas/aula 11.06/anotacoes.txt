@@ -1,0 +1,16 @@
+Aula de hoje: Recursividade
+
+1. Primeiro, existe uma pilha de execução, sendo essa a ordem 
+que as funções são descritas no código. 
+
+stack over flow: um tipo de erro onde a pilha de execução fica
+grande demais e a memória não é suficiente para lidar c tudo.
+
+2. A ideia de Recursividade é a de usar uma função dentro de uma 
+função. Criar um looping. 
+
+3. Vantagens: O programa se torna mais simples e elegante.
+Desvantagens: Exige mais do computador, e talvez demore mais para
+rodar. 
+
+4.

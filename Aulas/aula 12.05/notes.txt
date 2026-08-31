@@ -1,0 +1,34 @@
+Aula 12/05: 
+
+1. Vetores são matrizes com mais de uma dimensão. 
+v[i] ------> elemento 'i' do vetor 'v'. ;
+m[i][j] ------> linha 'i' e coluna 'j' da matriz 'm';
+
+2. A aula começa retomando o 'Problema 3' da última aula. Tem 
+a resolução passo-a-passo nos slides da matéria. 
+
+obs.1: O for funciona da seguinte forma: 
+for(i = 0; i <= 6; i = i + 1) {}, esse último passo i++ é o que a 
+função deve fazer após terminar o loop do colchete. 
+
+Então, quando temos: 
+
+for(i = 0; i < 6; i = i + 1) { 
+        for(j = 0; j < 6; j = j + 1){ }}
+
+estamos, basicamente, dizendo que o for j será concluído completamente
+até o final, e só depois i irá virar i = i + 1, e aí ele deverá 
+fazer o j todo de novo, com i = i + 1.
+
+3. como usar o rand() para criar uma função que sorteia um 
+intervalo aleatório entre 'a' e 'b': 
+
+a + rand() % (b - a); 
+
+4. Pesquisar como contar o valor que aparece com maior
+frequência dentro de uma matriz. (hintado como questão
+de prova)
+
+
+
+

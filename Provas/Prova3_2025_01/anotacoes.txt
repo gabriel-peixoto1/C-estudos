@@ -1,0 +1,13 @@
+
+Anotações sobre meu rendimento na prova de 2025_01 e 2025_02: 
+
+1. Preciso estudar mais sobre ponteiros: 
+- Quando usar ele dentro de uma função (para chamar a função ou retornar valor);
+- Como lidar quando um dos elementos do struct é um ponteiro (para o que ele aponta? como usar o '->');
+- a relação entre ponteiros e malloc (obs.: parece que só ponteiros podem receber malloc?);
+
+2. Preciso aprender a REVISAR o código. tô errando coisa muito boba que eu sei como fazer.
+
+3. feof precisa de ter o arquivo em parenteses. while(!feof(arquivo));
+
+

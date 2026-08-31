@@ -1,0 +1,20 @@
+1. Arquivos são usados como uma fonte de dados. Normalmente, lidamos com casos stdin, onde o 
+usuário do código entra com os dados que usaremos. Porém, no caso de termos que analisar um
+texto ou uma matriz 10x10, o usuário teria que digitar trocentos valores toda vez que o código
+fosse utilizado. Por isso, usamos os arquivos como entrada. 
+
+2. A função fopen pode fazer três coisas com o arquivo aberto: 
+Ler os dados existentes “r”;
+Gravar dados apagando (caso existam) os dados existentes “w”;
+Anexar novos dados aos já existentes “a”;
+
+3. Após o uso do arquivo, se feita alguma alteração (write ou printf), o arquivo também deve
+ser fechado com a função fclose(arq).
+
+4. if (arq == null) {printf("O arquivo não pode ser encontrado.")}   ---> boa prática. 
+
+5. Lembrete: A função fgets() lê uma linha de texto. 
+
+6. fscanf e fprintf são as exatas mesmas funções que scanf e printf, mas elas servem para 
+todo tipo de entrada, enquanto scanf e printf servem apenas para entrada por teclado.
+
